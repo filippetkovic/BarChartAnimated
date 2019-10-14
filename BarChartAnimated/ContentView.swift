@@ -10,13 +10,11 @@ import SwiftUI
 
 struct ContentView: View {
     
-    
-    
     @State var pickerSelectedItem = 0
     @State var dataPoints: [[CGFloat]] = [
-        [50, 100, 150],
-        [150, 100, 50],
-        [10, 20, 30]
+        [50, 100, 150, 54, 67, 21, 90],
+        [150, 100, 50, 11, 22, 58, 54],
+        [10, 20, 30, 10, 12, 18, 10]
     ]
     
     var body: some View {
